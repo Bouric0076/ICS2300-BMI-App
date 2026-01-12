@@ -53,10 +53,3 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
-        // TODO: Add button click listener
-        // TODO: Add input validation
-        // TODO: Add BMI calculation logic
-        // TODO: Display result and classification
-    }
-}
