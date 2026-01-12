@@ -36,7 +36,20 @@ public class MainActivity extends AppCompatActivity {
 
             double bmi = weight / (height * height);
 
-            tvResult.setText("BMI: " + String.format("%.2f", bmi));
+            String category;
+            
+            if (bmi < 18.5) {
+                category = "Underweight";
+            } else if (bmi < 25) {
+                category = "Normal";
+            } else if (bmi < 30) {
+                category = "Overweight";
+            } else {
+                category = "Obese";
+            }
+            
+            tvResult.setText("BMI: " + String.format("%.2f", bmi) + "\nCategory: " + category);
+
         });
     }
 }
