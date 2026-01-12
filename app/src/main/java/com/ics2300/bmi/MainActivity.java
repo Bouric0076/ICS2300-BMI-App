@@ -22,6 +22,25 @@ public class MainActivity extends AppCompatActivity {
         btnCalculate = findViewById(R.id.btnCalculate);
         tvResult = findViewById(R.id.tvResult);
 
+        btnCalculate.setOnClickListener(v -> {
+            String weightStr = etWeight.getText().toString();
+            String heightStr = etHeight.getText().toString();
+
+            if (weightStr.isEmpty() || heightStr.isEmpty()) {
+                tvResult.setText("Please enter both weight and height.");
+                return;
+            }
+
+            double weight = Double.parseDouble(weightStr);
+            double height = Double.parseDouble(heightStr);
+
+            double bmi = weight / (height * height);
+
+            tvResult.setText("BMI: " + String.format("%.2f", bmi));
+        });
+    }
+}
+
         // TODO: Add button click listener
         // TODO: Add input validation
         // TODO: Add BMI calculation logic
