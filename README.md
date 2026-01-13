@@ -23,5 +23,3 @@ The classification is based on the following ranges:
 - **Overweight**: 25 <= BMI < 30
 - **Obese**: BMI >= 30
 
-## Author
-Micah Sagero
