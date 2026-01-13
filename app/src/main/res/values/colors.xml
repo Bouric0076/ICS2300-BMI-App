@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary academic branding colors -->
+    <color name="colorPrimary">#2C3E50</color> <!-- Dark Midnight Blue -->
+    <color name="colorPrimaryDark">#1A252F</color> <!-- Deeper Navy -->
+    <color name="colorAccent">#7F8C8D</color> <!-- Professional Slate Grey -->
+
+    <!-- UI Element Colors -->
+    <color name="backgroundColor">#F4F6F6</color> <!-- Off-white for background -->
+    <color name="textHeaderColor">#212121</color> <!-- Near black for readability -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- White text for buttons -->
 </resources>
