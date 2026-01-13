@@ -1,11 +1,11 @@
 # BMI Calculator Android Application
 
-This is an Android application designed to calculate the Body Mass Index (BMI) based on user input for weight (in kilograms) and height (in meters).
+This is an Android application designed to calculate the Body Mass Index (BMI) based on user input for weight (kilograms) and height (meters), and classifies the result into BMI Categories.
 
 ## Features
 - Input fields for weight and height.
 - Computation of BMI using the standard formula.
-- Classification of BMI into categories: Underweight, Normal, Overweight, and Obese.
+- Classification of BMI into categories: (Underweight, Normal, Overweight, and Obese) based on the BMI result. 
 - User-friendly interface.
 
 ## How to Run
@@ -23,3 +23,11 @@ The classification is based on the following ranges:
 - **Overweight**: 25 <= BMI < 30
 - **Obese**: BMI >= 30
 
+## Language
+The project has been developed using Java. 
+The IDE to be used is Android Studio. 
+
+## User Interface
+Labeled input fields for weight and height.
+A "Calculate BMI" button.
+TextViews to display: (BMI value, BMI classification)
